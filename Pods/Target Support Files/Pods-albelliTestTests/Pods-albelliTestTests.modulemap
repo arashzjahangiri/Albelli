@@ -1,0 +1,6 @@
+framework module Pods_albelliTestTests {
+  umbrella header "Pods-albelliTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

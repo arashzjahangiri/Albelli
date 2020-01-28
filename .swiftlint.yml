@@ -1,0 +1,19 @@
+trailing_whitespace:
+    ignores_empty_lines: true
+    ignores_comments: true
+
+excluded:
+    - Pods
+    - albelliTests/Mock/Mock.generated.swift
+
+line_length: 250
+
+opt_in_rules:
+    - force_unwrapping
+force_cast: warning
+force_try: warning
+
+disabled_rules:
+    - nesting
+    - force_cast
+    - function_parameter_count

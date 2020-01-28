@@ -1,0 +1,27 @@
+PODS:
+  - Sourcery (0.17.0)
+  - SwiftLint (0.37.0)
+  - SwiftyMocky (3.4.0):
+    - SwiftyMocky/Core (= 3.4.0)
+  - SwiftyMocky/Core (3.4.0):
+    - Sourcery (>= 0.17)
+
+DEPENDENCIES:
+  - Sourcery
+  - SwiftLint (~> 0.22)
+  - SwiftyMocky
+
+SPEC REPOS:
+  trunk:
+    - Sourcery
+    - SwiftLint
+    - SwiftyMocky
+
+SPEC CHECKSUMS:
+  Sourcery: 3ed61be7c8a1218fce349266139379dba477efe0
+  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
+  SwiftyMocky: 030e1f0e0669952287af29d38b4748461d22312d
+
+PODFILE CHECKSUM: 5c0d0c97c0a654701008c61b786890988ada54ea
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,13 @@
+sources:
+  include:
+    - ./albelliTest/Helper
+    - ./albelliTest/Scenes
+    - ./albelliTestTests
+    - ./albelliTest/SuperClassesAndProtocols
+templates:
+  - ./Pods/SwiftyMocky/Sources/Templates
+output:
+  ./albelliTestTests/Mock
+args:
+  testable:
+    - albelliTest
